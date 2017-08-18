@@ -153,7 +153,6 @@ nova-manage cell_v2 discover_hosts
 echocolor "Restarting NOVA "
 sleep 7
 service nova-api restart
-service nova-cert restart
 service nova-consoleauth restart
 service nova-scheduler restart
 service nova-conductor restart
@@ -162,7 +161,6 @@ service nova-novncproxy restart
 sleep 7
 echocolor "Restarting NOVA"
 service nova-api restart
-service nova-cert restart
 service nova-consoleauth restart
 service nova-scheduler restart
 service nova-conductor restart
