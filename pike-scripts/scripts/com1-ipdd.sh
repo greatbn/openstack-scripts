@@ -7,7 +7,7 @@ echocolor "Enable the OpenStack Ocata repository"
 sleep 5
 apt-get update
 apt-get install software-properties-common -y
-add-apt-repository cloud-archive:ocata -y
+add-apt-repository cloud-archive:pike -y
 
 sleep 5
 echocolor "Upgrade the packages for server"
