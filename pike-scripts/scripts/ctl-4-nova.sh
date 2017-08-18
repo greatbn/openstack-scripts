@@ -55,7 +55,7 @@ openstack endpoint create --region RegionOne \
 
 echocolor "Install NOVA in $CTL_MGNT_IP"
 sleep 5
-apt-get -y install nova-api nova-cert \
+apt-get -y install nova-api \
     nova-conductor nova-consoleauth \
     nova-novncproxy nova-scheduler \
     nova-placement-api
